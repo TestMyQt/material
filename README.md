@@ -114,16 +114,88 @@
 * TBA
 
 ### Week 4 - C++ and QML  
-* Combining C++ with QML
+* Combining C++ with QML:
+
+1. **Context Properties**  
+*How to communicate between C++ and QML*  
+2. **Context Objects**  
+*TBA*
+3. **Calling QML from C++ and vice versa**  
+*TBA*
+4. **Registration**  
+*TBA*
+5. **QML Plugins**  
+*Right way of doing registration*
+6. **Custom QObjects**  
+*Deriving good types for QML*
+7. **QPainter**  
+*TBA*
+8. **Custom Painted Items**  
+*TBA*
+9. **Scene Graph Item**  
+*TBA*
+
+
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
 
 ### Week 5 - Inter-Process Communication and Multitasking  
+* Communication between processes and threads :
+
+1. **JS Workers**  
+*Worker limitation*  
+2. **List Manipulation**  
+*Worker use case*
+3. **QtConcurrent**  
+*TBA*
+4. **Container Manipulation with QtConcurrent**  
+*TBA*
+5. **QRunnable**  
+*TBA*
+6. **Thread Affinity**  
+*Right way to handle threads*
+7. **Sync/Mutual Exclusion**  
+*TBA*
+8. **Thread Cleanup**  
+*Good practices*
+9. **Inter-Thread Communication**  
+*TBA*
+10. **IPC: Shared Memory**  
+*TBA*
+11. **IPC: File Watcher**  
+*TBA*
+12. **IPC: Remote Objects**
+*TBA*
 
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
 
 ### Week 6 - Application Engine  
+
+* TBA:
+
+1. **Plugins**  
+*TBA* 
+2. **XML and JSON Handling**  
+*TBA*
+3. **Networking**  
+*TBA*
+4. **Bluetooth?**  
+*TBA*
+5. **Sensors**  
+*TBA*
+6. **Maps Routing**  
+*TBA*
+7. **Media Player**  
+*TBA*
+8. **Subtitles**  
+*TBA*
+9. **SQL Databases**  
+*TBA*
+10. **Webengine**  
+*TBA*
+11. **Hybrid Apps**  
+*TBA*
 
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
