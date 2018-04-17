@@ -2,7 +2,7 @@
 
 **Here are our plans and outlines for the Qt Mooc course materials.**  
 
-### Introduction - Introduction to the course 
+### [Introduction](https://github.com/TestMyQt/material/blob/master/course/week-0/introduction.md) - Introduction to the course 
 * Everything required for starting the course
 * Workspace setup
 * Documentation
