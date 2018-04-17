@@ -1,6 +1,6 @@
 # Qt MOOC material
 
-**Here are our plans and outlines for the Qt Mooc course materials.**  
+**Here is a brief summary of the topics of the course. Included are also the objectives of each topic there is an objective for**
 
 ### [Introduction](https://github.com/TestMyQt/material/blob/master/course/week-0/introduction.md) - Introduction to the course 
 * Everything required for starting the course
@@ -201,3 +201,13 @@
 * TBA
 
 #### Week 7 - TBA  
+
+***
+
+**Here are our plans and outlines for the Qt Mooc course materials.**  
+
+This is the original material outline repository which contains the work in progress that is the Qt Mooc course material.  
+These pages are used for content creation and do not in all cases represent a finished product. In most cases they represent a construction site where we recommend you take the stairs, instead of the elevator. The elevator will be implemented in 2020.
+This is also the repository where the completed course exercises can be found.
+
+https://github.com/TestMyQt/material-outline/wiki
