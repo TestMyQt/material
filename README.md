@@ -1,6 +1,6 @@
 # Qt MOOC material
 
-**Here is a brief summary of the topics of the course. Included are also the objectives of each topic there is an objective for**
+**Here is a brief summary of the topics of the course.**
 
 ### [Introduction](https://github.com/TestMyQt/material/blob/master/course/week-0/introduction.md) - Introduction to the course 
 * Everything required for starting the course
