@@ -1,5 +1,30 @@
+---
+---
+
 @import "{{ site.theme }}";
 
 .important {
   border: 1px solid black;
+}
+
+textarea, iframe {
+  margin: 0;
+  display: block;
+}
+
+iframe {
+  border: 0px none;
+}
+
+textarea {
+  resize: none
+}
+
+#result, #result > iframe {
+
+}
+
+/* Alternate: enable flex */
+#result {
+  background: #333;
 }
