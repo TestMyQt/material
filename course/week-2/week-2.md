@@ -5,4 +5,10 @@ permalink: /week-2
 qmlweb: true
 ---
 
-{% include_relative text/test.md %}
+{% include_relative text/00.md %}
+{% include_relative text/01.md %}
+{% include_relative text/02.md %}
+{% include_relative text/03.md %}
+{% include_relative text/06.md %}
+{% include_relative text/07.md %}
+{% include_relative text/08.md %}
