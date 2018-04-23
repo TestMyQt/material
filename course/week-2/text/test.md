@@ -47,7 +47,7 @@ Rectangle {
 </div>
 
 <div id="result">
-  <iframe src="assets/html/runner.html"></iframe>
+  <iframe src="{{ "assets/html/runner.html" }}"></iframe>
 </div>
 
 Now the logic of mouse handling is contained within the `MouseArea` item. This distinction is an important aspect of Qt Quick UIs, as this separates the input handling from visual presentations. This enables the visual items to be what ever the size they may be, but the input is only accepted within constraints defined in the input elements.

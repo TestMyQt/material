@@ -29,7 +29,10 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - course/week-1/text/
+  - course/week-2/text/
+  - course/week-3/text/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules

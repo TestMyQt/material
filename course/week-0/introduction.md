@@ -1,3 +1,8 @@
+---
+layout: page
+title: Week 0
+permalink: /week-0
+---
 # Introduction
 
 ## Qt
