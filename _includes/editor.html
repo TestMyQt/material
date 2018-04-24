@@ -1,0 +1,40 @@
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  var textarea = document.querySelector('#{{ include.id }}-code textarea');
+  textarea.innerHTML = textarea.innerHTML.trim();
+
+  var editor = CodeMirror.fromTextArea(textarea, {
+    lineNumbers: true
+  });
+
+  var iframe = document.querySelector("#{{ include.id }}-result iframe");
+  iframe.addEventListener("load", function () {
+    iframe.contentWindow.postMessage(textarea.value, "*");
+  });
+
+  var execute = function() {
+    iframe.src = iframe.src;
+  };
+
+  textarea.addEventListener("change", execute);
+
+  editor.on("change", function() {
+    textarea.value = editor.getValue();
+    execute();
+  });
+
+  execute();
+});
+
+</script>
+
+<div id="{{ include.id }}-code">
+  <figure>{{ include.name }}</figure>
+  <textarea>{{ include.code }}</textarea>
+</div>
+
+<div id="{{ include.id }}-result">
+  <iframe src="{{ "assets/html/runner.html" }}"></iframe>
+</div>
+
+
