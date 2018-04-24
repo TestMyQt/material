@@ -5,6 +5,9 @@ permalink: /week-2
 qmlweb: true
 ---
 
+* TOC
+{:toc}
+
 {% include_relative text/00.md %}
 {% include_relative text/01.md %}
 {% include_relative text/02.md %}

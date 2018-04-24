@@ -6,6 +6,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <script src="{{ "assets/js/site.js" | relative_url }}"></script>
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
   {% if page.qmlweb %}
