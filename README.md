@@ -10,7 +10,7 @@
 * Workflow introduction
 * Course tools introduction
 
-### Week 1 - Qt Essentials  
+### Part 1 - Qt Essentials  
 * Introductory topics:
 
 1. **Creating and debugging Qt projects**  
@@ -43,7 +43,7 @@
 * Short basic assignments that account for 50%ish of the assignments of the week
 * One bigger assignment completed step by step trough implementing the required topics of learning from Week 1 resulting in a complete application
 
-### Week 2 - Qt Quick UI:s  
+### Part 2 - Qt Quick UI:s  
 * User Interface creation using Qt Quick:
 
 1. **QML Hello World**  
@@ -84,7 +84,7 @@
 * Short basic assignments that account for 50%ish of the assignments of the week 
 * TBA
 
-### Week 3 - Data-centric Apps  
+### Part 3 - Data-centric Apps  
 * Manipulating and presenting data using QML:
 
 1. **List model manipulation**  
@@ -113,7 +113,7 @@
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
 
-### Week 4 - C++ and QML  
+### Part 4 - C++ and QML  
 * Combining C++ with QML:
 
 1. **Context Properties**  
@@ -139,7 +139,7 @@
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
 
-### Week 5 - Inter-Process Communication and Multitasking  
+### Part 5 - Inter-Process Communication and Multitasking  
 * Communication between processes and threads :
 
 1. **JS Workers**  
@@ -170,7 +170,7 @@
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
 
-### Week 6 - Application Engine  
+### Part 6 - Application Engine  
 
 * TBA:
 
@@ -200,7 +200,7 @@
 * Short basic assignments that account for 50%ish of the assignments of the week
 * TBA
 
-#### Week 7 - TBA  
+#### Part 7 - TBA  
 
 ***
 
