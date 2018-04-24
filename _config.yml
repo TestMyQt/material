@@ -36,9 +36,10 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - course/week-1/text/
-  - course/week-2/text/
-  - course/week-3/text/
+  - course/part-0/text/
+  - course/part-1/text/
+  - course/part-2/text/
+  - course/part-3/text/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
