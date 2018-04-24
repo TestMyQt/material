@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Week 0
-permalink: /week-0
+title: Part 0
+permalink: /part-0
 ---
 # Introduction
 
