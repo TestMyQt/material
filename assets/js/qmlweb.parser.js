@@ -502,12 +502,33 @@ function extractLinesForErrorDiag(text, line) {
   return r;
 }
 
-function qmlweb_tokenizer($TEXT) {
+function qmlweb_tokenizer($TEXT, document_type) {
   // Override UglifyJS methods
 
   parse_error = function(err) {
     throw new QMLParseError(err, S.tokline, S.tokcol, S.tokpos, S.text);
   };
+
+  if (document_type === qmlweb_parse.QMLDocument) {
+    // We need to support multiline strings in QML mode, allow newline chars
+    // We don't need to support octal escape sequences, as those are not
+    // supported in QML
+    read_string = function() {
+      return with_eof_error("Unterminated string constant", function(){
+        var quote = next(), ret = "";
+        for (;;) {
+          var ch = next(true);
+          if (ch == "\\") {
+            ch = read_escaped_char(true);
+          } else if (ch == quote) {
+            break;
+          }
+          ret += ch;
+        }
+        return token("string", ret);
+      });
+    }
+  }
 
   // WARNING: Here the original tokenizer() code gets embedded
   
@@ -859,9 +880,10 @@ function qmlweb_tokenizer($TEXT) {
 
 function qmlweb_parse($TEXT, document_type, exigent_mode) {
   var embed_tokens = false; // embed_tokens option is not supported
+  document_type = document_type || qmlweb_parse.QMLDocument;
 
   var TEXT = $TEXT.replace(/\r\n?|[\n\u2028\u2029]/g, "\n").replace(/^\uFEFF/, '');
-  $TEXT = qmlweb_tokenizer($TEXT, true);
+  $TEXT = qmlweb_tokenizer($TEXT, document_type);
 
   // WARNING: Here the original parse() code gets embedded
   
@@ -1486,13 +1508,13 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
     if (is(type, val)) {
       return next();
     }
-    token_error(S.token, "Unexpected token " + S.token.type + " " + S.token.val + ", expected " + type + " " + val);
+    token_error(S.token, "Unexpected token " + S.token.type + " " + S.token.value + ", expected " + type + " " + val);
   };
 
   var statement_js = statement;
   statement = function() {
-    var in_qmlpropdef = !!statement.in_qmlpropdef;
-    statement.in_qmlpropdef = false;
+    var in_qmlprop = !!statement.in_qmlprop;
+    statement.in_qmlprop = false;
     switch (S.token.type) {
     case "punc":
       switch (S.token.value) {
@@ -1502,7 +1524,7 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
     case "keyword":
       switch (S.token.value) {
       case "function":
-        if (in_qmlpropdef) {
+        if (in_qmlprop) {
           next();
           return function_(false);
         }
@@ -1544,8 +1566,15 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
 
   function maybe_qmlelem(no_in) {
     var expr = maybe_assign(no_in);
-    if (is("punc", "{"))
-      return as("qmlelem", expr[1], undefined, qmlblock());
+    if (is("punc", "{")) {
+      var qmlelem_name;
+      if (expr[0] === "dot") {
+        qmlelem_name = ["dot", expr[1][1], expr[2]];
+      } else {
+        qmlelem_name = expr[1];
+      }
+      return as("qmlelem", qmlelem_name, undefined, qmlblock());
+    }
     return expr;
   }
 
@@ -1571,6 +1600,15 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
   function qmlpropdef() {
     var type = S.token.value;
     next();
+
+    var subtype;
+    if (is("operator", "<")) {
+      next();
+      subtype = S.token.value;
+      next();
+      expect_token("operator", ">");
+    }
+
     var name = S.token.value;
     next();
     if (type == "alias") {
@@ -1590,7 +1628,7 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
     }
     if (is("punc", ":")) {
       next();
-      statement.in_qmlpropdef = true;
+      statement.in_qmlprop = true;
       return as_statement("qmlpropdef", name, type);
     } else if (is("punc", ";"))
       next();
@@ -1668,6 +1706,7 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
       } else {
         // Evaluatable item
         expect(":");
+        statement.in_qmlprop = true;
         return as_statement("qmlprop", propname);
       }
     } else if (is("keyword", "default")) {
@@ -1679,6 +1718,13 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
 
   function qml_pragma_statement() {
     next();
+    next();
+    var pragma = S.token.value;
+    next();
+    return as("qmlpragma", pragma);
+  }
+
+  function qmlpragma() {
     next();
     var pragma = S.token.value;
     next();
@@ -1712,13 +1758,22 @@ function qmlweb_parse($TEXT, document_type, exigent_mode) {
 
   function qmldocument() {
     var imports = [];
-    while (is("name", "import")) {
-      imports.push(qmlimport());
+    var pragma = [];
+    while (true) {
+      if (is("name", "import")) {
+        imports.push(qmlimport());
+      } else if (is("name", "pragma")) {
+        pragma.push(qmlpragma());
+      } else {
+        break;
+      }
     }
     var root = qmlstatement();
     if (!is("eof"))
       unexpected();
-    return as("toplevel", imports, root);
+    return pragma.length > 0 ?
+      as("toplevel", imports, root, pragma) :
+      as("toplevel", imports, root);
   }
 
   function jsdocument() {

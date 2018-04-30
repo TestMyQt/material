@@ -1,7 +1,6 @@
 <script>
 window.addEventListener("DOMContentLoaded", function () {
   var textarea = document.querySelector('#{{ include.id }}-code textarea');
-  textarea.innerHTML = textarea.innerHTML.trim();
 
   var editor = CodeMirror.fromTextArea(textarea, {
     lineNumbers: true
@@ -30,7 +29,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 <div id="{{ include.id }}-code">
   <figure>{{ include.name }}</figure>
-  <textarea>{{ include.code }}</textarea>
+  <textarea>{{ include.code | strip }}</textarea>
 </div>
 
 <div id="{{ include.id }}-result">
