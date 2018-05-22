@@ -33,6 +33,71 @@ textarea {
   color: #2d2d2d;
 }
 
+/* ==========================================================================
+   Table of Contents
+   ========================================================================== */
 #markdown-toc {
-  line-height: 1.5;
+  width: 50%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  pointer-events: none;
 }
+
+#markdown-toc {
+  position: fixed;
+  top: 0;
+  right: 370px;
+  min-width: 260px;
+  max-width: 400px;
+  max-height: 100%;
+  overflow-y: auto;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 1.5;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+  pointer-events: auto;
+}
+
+#markdown-toc ul {
+  list-style: none;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#markdown-toc li {
+  padding-left: 0;
+}
+
+#markdown-toc a {
+  color: inherit;
+}
+
+#markdown-toc h1 {
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#markdown-toc h1 + h2 {
+  border-top: 1px solid #eee;
+  padding-top: 0.6em;
+}
+
+#markdown-toc li.h2 {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  text-indent: -0.8em;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.toc-active {
+  color: #57A3E8 !important;
+}
+
