@@ -149,6 +149,8 @@ More info on this later!
 Otherwise our main contact channel will be:
 
 * #qt-mooc @ freenode and on matrix/riot.im
+* [Telegram link for #qt-mooc @ freenode](https://t.me/joinchat/FdRoUFI0awxijE4mEA72bg)
+* [Riot link for #qt-mooc @ freenode](https://riot.im/app/#/room/#freenode_#qt-mooc:matrix.org)
 
 We encourage students to join in and stay around even if your particular question/issue may have been resolved!  
 
@@ -164,7 +166,6 @@ Where do I find the right help for my particular issue?
 * Technical problems with the course tools
 * Technical problems with Qt/Qt Creator
 * Problems/difficulties in making the course tools work before proceeding into Week 1 (WE WANT TO PREVENT AS MUCH AS POSSIBLE OF THIS INSTANCE OF A PROBLEM)
-
 
 ### F.A.Q
 
