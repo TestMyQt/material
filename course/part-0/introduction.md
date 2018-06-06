@@ -52,6 +52,15 @@ The goals are that you will have an understanding of how to create an applicatio
 
 **What is the schedule of this course?**
 
+The beta course consists of four parts:
+
+Part 1: Qt Essentials
+Part 2: Qt Quick UI:s
+Part 3: Data-centric apps
+Part 4: C++ and QML
+
+Parts 1 and 2 will be available from the start date of the course. Release of parts 3 and 4 will be staggered, and released later in june.  
+
 During the beta course, we will adhere to deadlines as follows:  
 
 Part 1: 2.7  
@@ -59,7 +68,7 @@ Part 2: 23.7
 Part 3: 13.8  
 Part 4: 2.9  
 
-That means that as the course starts, you will have three weeks to complete each part. Outside of these deadlines, you
+That means that as the course starts, you will have three weeks per part to complete them. Apart from these deadlines, you
 are free to work on the course as you wish. We recommend that you work on the course every week.
 On average each section takes about a week and a half to finish.  
 
@@ -85,8 +94,6 @@ What is Qt Creator?
 
 What is TMC?  
 
-
-
 ***
 
 Where can I find the course material?  
@@ -98,7 +105,6 @@ We will include some relevant reference materials per week, this will mainly con
 We recommend you to use the QMLBook as your course reference book, should you wish to use one. It contains relevant topics to this course and will provide with a second perspective to learning about getting the most out of developing with Qt. You can find the QMLBook here:
 
 https://qmlbook.github.io/index.html  
-
 
 ***
 
