@@ -16,7 +16,7 @@
 title: Qt MOOC
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Qt MOOC description
+  #qt-mooc @ freenode
 baseurl: "/material" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
