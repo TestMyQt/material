@@ -4,6 +4,9 @@ title: Introduction
 permalink: /intro
 ---
 
+# Notice: material is under construction!
+{: .notice}
+
 #### What is Qt?
 
 Programming should be fast, easy and fun. That’s why Qt has been focusing on improving software development for the last 25 years, and with the amount of applications and devices growing every day, efficiency has become more important than ever.

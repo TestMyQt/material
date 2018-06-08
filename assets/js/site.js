@@ -31,6 +31,10 @@ document.onreadystatechange = function(){
     for(var level=1; level<=6; level++)
       linkifyAnchors(level, contentBlock);
   }
+  // Check whether we have a table of contents
+  if (!document.getElementById(tocId)) {
+    return;
+  }
 
   highlightOnScroll();
 

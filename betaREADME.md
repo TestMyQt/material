@@ -1,4 +1,4 @@
-# Qt MOOC BETA course material
+# Qt MOOC BETA material
 
 **Here is a brief summary of the topics of the planned beta course.**
 
@@ -93,9 +93,9 @@
 
 ***
 
-**Here are our plans and outlines for the Qt Mooc course materials.**  
+**Here are our plans and outlines for the Qt Mooc materials.**  
 
-This is the original material outline repository which contains the work in progress that is the Qt Mooc course material.  
+This is the original material outline repository which contains the work in progress that is the Qt Mooc material.  
 These pages are used for content creation and do not in all cases represent a finished product. In most cases they represent a construction site where we recommend you take the stairs, instead of the elevator. The elevator will be implemented in 2020.
 This is also the repository where the completed course exercises can be found.
 
