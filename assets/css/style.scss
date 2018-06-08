@@ -49,21 +49,39 @@ hr {
   text-align: center;
 }
 
+.wrapper {
+  margin-left: 30% !important;
+}
+
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
-#markdown-toc {
-  width: 50%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  pointer-events: none;
+
+@media screen and (max-width: 1600px) {
+  #markdown-toc {
+    // display: none !important;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    float: none !important;
+    top: auto !important;
+  }
+
+  .wrapper {
+    margin-left: auto !important;
+  }
 }
+
 
 #markdown-toc {
   position: fixed;
+  float: left;
+  left: 0;
   top: 0;
+  height: 100%;
+}
+
+#markdown-toc {
   right: 370px;
   min-width: 260px;
   max-width: 400px;
