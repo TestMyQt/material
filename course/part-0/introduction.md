@@ -34,7 +34,7 @@ This course was dreamed up and implemented so that you can also learn the essent
 
 #### Is this a course for beginners?
 
-Yes, you should be able to go along even if you are a beginner.
+You should have some experience in programming, and preferably C++ in specific, but you don't need to know Qt or QML beforehand.
 
 #### What are the requirements for enrolling in this course?
 
