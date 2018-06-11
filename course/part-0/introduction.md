@@ -116,8 +116,8 @@ If you study elsewhere in the world ...
 
 #### Where can I find documentation?
 
-* http://doc.qt.io
-* http://wiki.qt.io
+* [http://doc.qt.io](http://doc.qt.io)
+* [http://wiki.qt.io](http://wiki.qt.io)
 
 
 #### Setting up the working environment
@@ -128,8 +128,8 @@ _Here we want to include sufficient instructions for the student to effortlessly
 
 **Qt Creator**
 
-* https://download.qt.io/
-* http://doc.qt.io/qt-5/gettingstarted.html
+* [https://download.qt.io/](https://download.qt.io/)
+* [http://doc.qt.io/qt-5/gettingstarted.html](http://doc.qt.io/qt-5/gettingstarted.html)
 
 **Qt TMC plugin**
 
@@ -146,8 +146,8 @@ How do I complete assignments?
 How should I write my code (coding conventions)?  
 Why adhere to coding conventions?
 
-* https://wiki.qt.io/Qt_Coding_Style
-* https://wiki.qt.io/Coding_Conventions
+* [https://wiki.qt.io/Qt_Coding_Style](https://wiki.qt.io/Qt_Coding_Style)
+* [https://wiki.qt.io/Coding_Conventions](https://wiki.qt.io/Coding_Conventions)
 
 ### Course contact channels
 
