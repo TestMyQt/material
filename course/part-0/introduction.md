@@ -135,7 +135,7 @@ _Here we want to include sufficient instructions for the student to effortlessly
 
 _Placeholder for download link to where the Qt TMC plugin is being distributed from._
 
-* https://github.com/TestMyQt/material-outline/wiki/Installation-and-user-guide
+* [https://github.com/TestMyQt/material-outline/wiki/Installation-and-user-guide](https://github.com/TestMyQt/material-outline/wiki/Installation-and-user-guide)
 
 _The documentation above needs to be updated to reflect changes from `TMC-cli` to `autotest`._
 
