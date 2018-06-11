@@ -137,8 +137,6 @@ _Placeholder for download link to where the Qt TMC plugin is being distributed f
 
 * [https://github.com/TestMyQt/material-outline/wiki/Installation-and-user-guide](https://github.com/TestMyQt/material-outline/wiki/Installation-and-user-guide)
 
-_The documentation above needs to be updated to reflect changes from `TMC-cli` to `autotest`._
-
 How do I set up my working environment on my toaster? These instructions aren't helping me out.  
 
 ### Working on the Qt MOOC
