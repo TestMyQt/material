@@ -137,7 +137,7 @@ _Placeholder for download link to where the Qt TMC plugin is being distributed f
 
 * https://github.com/TestMyQt/Qt-CreatorTMC/wiki/User-guide:-Setting-up-your-workspace-and-getting-started
 
-_The documentation above will need to be updated if/once the client side TMC plugin transitions from using `TMC-cli` to `autotest`._
+_The documentation above needs to be updated to reflect changes from `TMC-cli` to `autotest`._
 
 How do I set up my working environment on my toaster? These instructions aren't helping me out.  
 
@@ -156,7 +156,7 @@ Why adhere to coding conventions?
 During the first month of the beta course, we will be offering some on site support during afternoons at Kumpula Campus (Gustaf Hällströmin katu 2b) in Helsinki.
 More info on this later!
 
-Otherwise our main contact channel will be:
+In general, our main contact channel will be:
 
 * [#qt-mooc @ freenode](irc://#qt-mooc@irc.freenode.net)
 * [Freenode webchat](https://webchat.freenode.net/)
