@@ -16,3 +16,4 @@ permalink: /part-1
 {% include_relative text/03.md %}
 {% include_relative text/04.md %}
 {% include_relative text/05.md %}
+{% include_relative text/exercise.md %}
