@@ -1,6 +1,6 @@
 ---
 layout: page
-title: User guide and installation
+title: Installation
 permalink: /install
 ---
 
@@ -8,13 +8,13 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
 
 # Notifications regarding working environment installation and using the TMC plugin: 
 
-### 12/06/2018 *NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0. On some platforms OpenSSL 1.1 is not compatible*
+12/06/2018 *NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0. On some platforms OpenSSL 1.1 is not compatible*
 
-### 12/06/2018 *NB! 4.6.2 came out so we will be using that since 4.6.1 won't be offered in the installer anymore!*
+12/06/2018 *NB! 4.6.2 came out so we will be using that since 4.6.1 won't be offered in the installer anymore!*
 
-### 11/06/2018 *NB! After downloading and installing Qt 5.11, please DO NOT update it during the duration of this BETA course as doing so will overwrite our plugin install and will require a reinstall*
+11/06/2018 *NB! After downloading and installing Qt 5.11, please DO NOT update it during the duration of this BETA course as doing so will overwrite our plugin install and will require a reinstall*
 
-### 11/06/2018 *NB! Currently our plugin will overwrite student (your) files on update, so keep that in mind when updating the exercises*
+11/06/2018 *NB! Currently our plugin will overwrite student (your) files on update, so keep that in mind when updating the exercises*
 
 ## Setting up the working environment
 
