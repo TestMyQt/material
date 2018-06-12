@@ -68,7 +68,7 @@ Once you have downloaded and configured the exercises, you are ready to start co
 
 You may test your code locally at any time using the _Test project_ option.  
 If your code passes the required local tests, you will be prompted to submit your code to be tested serverside.  
-If you wish to refactor your code before submitting, you can simply press "Cancel" and submit your code manually or trough local testing at a later time.  
+If you wish to refactor your code before submitting, you can simply press "Cancel" and submit your code manually or through local testing at a later time.  
 
 ## Getting started, but with pictures
 
@@ -77,7 +77,7 @@ If you wish to refactor your code before submitting, you can simply press "Cance
 This is what you should see the first time you start up Qt Creator with the TMC plugin.  
 Before logging in, further options in the menu will be grayed out and the _settings menu_ will be unavailable.
 
-![First time menu view](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out.jpg)
+![First time menu view](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out.jpg)
 
 ### Login window
 
@@ -85,7 +85,7 @@ Logging on to the TMC server is the first and only thing you are able to do at t
 You will stay logged on until you choose to log out from the _settings menu_.  
 Your username will be stored locally, however there is no reason to log out inbetween coding sessions.
 
-![Login window](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_logging_in.jpg)
+![Login window](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_logging_in.jpg)
 
 ### Settings window
 
@@ -95,26 +95,26 @@ The _Project folder_ option is where the directory with your downloaded exercise
 The TMC plugin will check for new or updated exercises in the background.  
 The _Update interval_ option will allow you to tweak the interval to your liking.
 
-![Settings window](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_settings_window.jpg)
+![Settings window](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_settings_window.jpg)
 
 ### Download window
 
 Tick the exercises you wish to download.
 
-![Download window](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_download_window.jpg)
+![Download window](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_download_window.jpg)
 
 ### Download pane
 
 This is where you can monitor the exercise download progress. The window will close on it's own when the downloads have finished.
 
-![Download pane](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_download_pane.jpg)
+![Download pane](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_download_pane.jpg)
 
 ### Configuring downloaded projects
 
 Once the project downloads have finished, the plugin will automatically open all the downloaded exercise projects. You are required to configure your downloaded projects.  
 The last exercise in the list will open in the _Configure project_ view, the rest you will need to configure manually.
 
-![Configure project](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_configure_project.jpg)
+![Configure project](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_configure_project.jpg)
 
 ### Unconfigured project
 
@@ -122,7 +122,7 @@ As you can see, the project for Exercise 2 is unconfigured after loading.
 You may click the link in the _Mode manager_ to configure the project.  
 Alternatively you can configure your unconfigured projects by clicking the _Projects_ button in the menu above the _Mode manager_.
 
-![Unconfigured project](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_exercise_2_unconfigured.jpg)
+![Unconfigured project](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_exercise_2_unconfigured.jpg)
 
 ### Configured active project
 
@@ -130,7 +130,7 @@ You are able to choose your active project using the _Mode manager_ as shown.
 Testing will be done to the project that is active at time.  
 Shown below is Exercise 1 as the active project.
 
-![Configured active project](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_exercise_1_configured_and_active.jpg)
+![Configured active project](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_exercise_1_configured_and_active.jpg)
 
 ### Tested and ready to submit
 
@@ -139,7 +139,7 @@ The _TMC Results_ pane shows you the results of your local testing, passed/faile
 Please note that the local tests only show the points expected.  
 Points will not be awarded until tests run and pass server side.
 
-![Tested and ready to submit](https://github.com/TestMyQt/Qt-CreatorTMC/blob/master/documentation/images/starting_out_exercise_1_tested_ready_to_submit.jpg)
+![Tested and ready to submit](https://raw.githubusercontent.com/TestMyQt/Qt-CreatorTMC/master/documentation/images/starting_out_exercise_1_tested_ready_to_submit.jpg)
 
 
 
