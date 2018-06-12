@@ -1,29 +1,39 @@
 This guide is written to help you get started using the TMC plugin for Qt Creator.
 
+# Notifications regarding working environment installation and using the TMC plugin: 
+
+### 12/06/2018 *NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0. On some platforms OpenSSL 1.1 is not compatible*
+
+### 12/06/2018 *NB! 4.6.2 came out so we will be using that since 4.6.1 won't be offered in the installer anymore!*
+
+### 11/06/2018 *NB! After downloading and installing Qt 5.11, please DO NOT update it during the duration of this BETA course as doing so will overwrite our plugin install and will require a reinstall*
+
+### 11/06/2018 *NB! Currently our plugin will overwrite student (your) files on update, so keep that in mind when updating the exercises*
+
 ## Setting up the working environment
 
 ### Prerequisites for running the TMC Qt Creator plugin are:
 
-1. User has Java Runtime installed
-2. User has the executable `tmc-langs-cli` `.jar` file located on their hard drive
-3. User has the Qt Creator IDE installed.
+1. User has the Qt 5.11 and Qt Creator 4.6.2 IDE installed from the online installer.
+2. User has downloaded the TestMyCode plugin for Qt Creator
 
-### Retrieving the tmc-langs-cli .jar file
+### Retrieving the TestMyCode .zip file
 
-We will be using the `tmc-langs-cli` `.jar` file for testing projects locally before they are submitted to be tested at the TMC server.  
+We will be using autotest for testing projects locally before they are submitted to be tested at the TMC server.  
 
-Please visit the [maven testmycode](http://maven.testmycode.net/nexus/content/repositories/snapshots/fi/helsinki/cs/tmc/tmc-langs-cli/) directory for `tmc-langs-cli`.  
-From the newest SNAPSHOT directory, download the `tmc-langs-cli` `.jar` file that does not have "sources" in it's file name.  
-You should be looking for for something such as `/0.7.7-SNAPSHOT/tmc-langs-cli-0.7.7-20171213.095142-15.jar`.  
-Store the file in a convenient place, as we will be using it later when setting up the plugin.
+Please download [the thing from here PLACEHOLDER LINK](PLACEHOLDER).  
 
 ### Linux 
 
-You can download and install Qt Creator either from [qt.io](https://www.qt.io/) or install the package using the package manager of your distribution.
+You can download and install Qt 5.11 and Qt Creator 4.6.2 from [qt.io](https://www.qt.io/download-qt-installer).
 
 ### Windows
 
-You can download and install Qt Creator from [qt.io](https://www.qt.io/).
+If you are using Windows and have no means of working on this course using a Linux machine, please contact us ASAP on #qt-mooc @ Freenode
+
+### Macintosh
+
+If you are using Macintosh and have no means of working on this course using a Linux machine, please contact us ASAP on #qt-mooc @ Freenode
 
 ## Getting started
 
@@ -40,7 +50,6 @@ using your TMC username and password using the _login menu_. All other TestMyCod
 
 Once you have logged in, you will be able to enter the _settings menu_ to set up your workspace.   
 To set up your workspace, please select your organization and the course you are participating in.  
-Next, choose your project folder (this is where your exercises will be downloaded) and locate the `tmc-langs cli` `.jar` file on your hard drive.  
 If you wish to tweak the exercise update interval, feel free to do so.
 
 ### Downloading and configuring exercises
@@ -77,7 +86,6 @@ Your username will be stored locally, however there is no reason to log out inbe
 The _Organization_ dropdown menu will contain a list of available organizations. You should choose the one that is offering the course that you are taking.  
 The _Current Course_ dropdown menu will contain a list of available courses. You should choose the one that you have enrolled in.  
 The _Project folder_ option is where the directory with your downloaded exercises will be located.
-The _TMC.jar location_ is where you stored your `TMC-langs-cli.jar`.  
 The TMC plugin will check for new or updated exercises in the background.  
 The _Update interval_ option will allow you to tweak the interval to your liking.
 
