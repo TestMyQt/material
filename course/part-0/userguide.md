@@ -14,8 +14,6 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
 
 11/06/2018 *NB! After downloading and installing Qt 5.11, please DO NOT update it during the duration of this BETA course as doing so will overwrite our plugin install and will require a reinstall*
 
-11/06/2018 *NB! Currently our plugin will overwrite student (your) files on update, so keep that in mind when updating the exercises*
-
 ## Setting up the working environment
 
 ### Prerequisites for running the TMC Qt Creator plugin are:
@@ -27,11 +25,13 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
 
 We will be using autotest for testing projects locally before they are submitted to be tested at the TMC server.  
 
-Please download [the thing from here PLACEHOLDER LINK](PLACEHOLDER).  
+Please download [qtcreator-tmc.zip](https://github.com/TestMyQt/Qt-CreatorTMC/releases/download/v1.0/qtcreator-tmc-linux-v1.0.zip).  
 
 ### Linux 
 
-You can download and install Qt 5.11 and Qt Creator 4.6.2 from [qt.io](https://www.qt.io/download-qt-installer).
+- You need to download and install Qt 5.11 and Qt Creator 4.6.2 with the online installer from [qt.io](https://www.qt.io/download-qt-installer).
+- Remember where you installed Qt
+- Copy/move the `.so` files extracted from the `qtcreator-tmc-linux.zip` to the following path: `$QT_INSTALL_DIRECTORY/Tools/QtCreator/lib/qtcreator/plugins/`
 
 ### Windows
 

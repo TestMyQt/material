@@ -38,7 +38,8 @@ You should have some experience in programming, and preferably C++ in specific, 
 
 #### What are the requirements for enrolling in this course?
 
-Anyone can join in! To register for the course, you need to register an account to the [TestMyCode system](https://tmc.mooc.fi)
+Anyone can join in! To register for the course, you need to register an account to the [TestMyCode system](https://tmc.mooc.fi).
+You will also need to install the Qt framework with the Qt Creator IDE and our [TestMyCode plugin]({{ "/install" | absolute_url }}).
 
 #### What do I need to know before enrolling in this course?
 
@@ -86,7 +87,7 @@ We recommend you to use the libre [**QMLBook**](https://qmlbook.github.io/index.
 
 #### Where can I find the course exercises?
 
-Course exercises can be fetched from the [Test My Code system](https://tmc.mooc.fi) with the Qt Creator plugin
+Course exercises can be fetched from the [Test My Code system](https://tmc.mooc.fi) with the [Qt Creator plugin]({{ "/install" | absolute_url }})
 
 #### What do I need to do to get credit for completing this course?
 
@@ -147,7 +148,7 @@ More info on this later!
 In general, our main contact channel will be:
 
 * [#qt-mooc @ freenode](irc://#qt-mooc@irc.freenode.net)
-* [Freenode webchat](https://webchat.freenode.net/)
+* [Freenode webchat](https://webchat.freenode.net/?channels=qt-mooc)
 * [Telegram link for #qt-mooc @ freenode](https://t.me/joinchat/FdRoUFI0awxijE4mEA72bg)
 * [Riot link for #qt-mooc @ freenode](https://riot.im/app/#/room/#freenode_#qt-mooc:matrix.org)
 
