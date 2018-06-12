@@ -124,7 +124,7 @@ If you study elsewhere in the world ...
 
 You will need to install Qt, the Qt Creator IDE and the TMC plugin for Qt Creator.
 
-We have provided with instructions for you to set up your working environment [here](https://github.com/TestMyQt/material/blob/master/course/part-0/userguide.md)
+We have provided with instructions for you to set up your working environment [here]({{ "/install" | absolute_url }})
 
 
 ### Working on the Qt MOOC
