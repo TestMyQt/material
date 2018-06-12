@@ -1,3 +1,9 @@
+---
+layout: page
+title: User guide and installation
+permalink: /install
+---
+
 This guide is written to help you get started using the TMC plugin for Qt Creator.
 
 # Notifications regarding working environment installation and using the TMC plugin: 
