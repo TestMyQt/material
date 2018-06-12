@@ -96,6 +96,8 @@ You can get some additional points for answering the review questions at the end
 
 #### How do I get credit for this course after completing it?
 
+The course is worth 3 study credits, and it's graded pass/fail.
+
 **During the beta course we will contact all registered participants for credits.**
 
 If you study at the University of Helsinki ...  
