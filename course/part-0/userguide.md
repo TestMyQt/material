@@ -6,7 +6,7 @@ permalink: /install
 
 This guide is written to help you get started using the TMC plugin for Qt Creator.
 
-# Notifications regarding working environment installation and using the TMC plugin: 
+## Current bugs, issues and fixes: 
 
 12/06/2018 *NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0. On some platforms OpenSSL 1.1 is not compatible*
 
