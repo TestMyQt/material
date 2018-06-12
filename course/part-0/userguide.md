@@ -8,7 +8,7 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
 
 ## Current bugs, issues and fixes: 
 
-12/06/2018 *NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0. On some platforms OpenSSL 1.1 is not compatible*
+13/06/2018 *NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0 installed and in your `LD_LIBRARY_PATH`. On some platforms OpenSSL 1.1 is not compatible with Qt*
 
 12/06/2018 *NB! 4.6.2 came out so we will be using that since 4.6.1 won't be offered in the installer anymore!*
 
@@ -29,9 +29,14 @@ Please download [qtcreator-tmc.zip](https://github.com/TestMyQt/Qt-CreatorTMC/re
 
 ### Linux 
 
-- You need to download and install Qt 5.11 and Qt Creator 4.6.2 with the online installer from [qt.io](https://www.qt.io/download-qt-installer).
+- Install development tools (`g++`, `make`, etc.) for your distribution.
+  - Ubuntu/Debian: `sudo apt install build-essential`
+- To run graphical applications you need to install the development libraries for OpenGL.
+  - Ubuntu/Debian: `sudo apt install mesa-common-dev libgl1-mesa-dev`
+- You need to download and install Qt 5.11 and Qt Creator 4.6.2 with the online installer from [qt.io](https://www.qt.io/download-qt-installer)
 - Remember where you installed Qt
 - Copy/move the `.so` files extracted from the `qtcreator-tmc-linux.zip` to the following path: `$QT_INSTALL_DIRECTORY/Tools/QtCreator/lib/qtcreator/plugins/`
+- Now lauch Qt Creator to start the course
 
 ### Windows
 
@@ -49,13 +54,14 @@ All the functionality related to the TMC plugin for Qt Creator can be found in t
 
 ### Logging in
 
-If you are running the plugin for the first time, you will need to enter the address to the TMC server and logging in
-using your TMC username and password using the _login menu_. All other TestMyCode menu options will remain unavailable until you do so.
+If you are running the plugin for the first time, you will need to log in using your TMC username and password using the _login menu_.
+All other TestMyCode menu options will remain unavailable until you do so.
 
 ### Setting up
 
 Once you have logged in, you will be able to enter the _settings menu_ to set up your workspace.   
-To set up your workspace, please select your organization and the course you are participating in.  
+To set up your workspace, please select the organization 'Helsingin Yliopisto' and the course 'UI Application Development with Qt and QML'.  
+The chosen 'Project directory' location is where the exercises are downloaded.   
 If you wish to tweak the exercise update interval, feel free to do so.
 
 ### Downloading and configuring exercises
