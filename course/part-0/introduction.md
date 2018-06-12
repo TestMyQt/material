@@ -120,24 +120,12 @@ If you study elsewhere in the world ...
 * [http://wiki.qt.io](http://wiki.qt.io)
 
 
-#### Setting up the working environment
+### How do I set up my working environment?
 
-How do I set up my working environment?
+You will need to install Qt, the Qt Creator IDE and the TMC plugin for Qt Creator.
 
-_Here we want to include sufficient instructions for the student to effortlessly set up their working environment (Linux/Windows/Macintosh). This part of the documentation could possibly benefit from being tested on actual people once it's done._
+We have provided with instructions for you to set up your working environment [here](https://github.com/TestMyQt/material/blob/master/course/part-0/userguide.md)
 
-**Qt Creator**
-
-* [https://download.qt.io/](https://download.qt.io/)
-* [http://doc.qt.io/qt-5/gettingstarted.html](http://doc.qt.io/qt-5/gettingstarted.html)
-
-**Qt TMC plugin**
-
-_Placeholder for download link to where the Qt TMC plugin is being distributed from._
-
-* [https://github.com/TestMyQt/material/wiki/User-guide-and-installation](https://github.com/TestMyQt/material/wiki/User-guide-and-installation)
-
-How do I set up my working environment on my toaster? These instructions aren't helping me out.  
 
 ### Working on the Qt MOOC
 
