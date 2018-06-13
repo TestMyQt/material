@@ -49,6 +49,16 @@ hr {
   text-align: center;
 }
 
+.note {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  position: relative;
+  background-color: #ecffec;
+  border-color: #17a81a;
+}
+
 .wrapper {
   margin-left: 30% !important;
 }
