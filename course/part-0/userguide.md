@@ -40,6 +40,7 @@ Please download [qtcreator-tmc.zip](https://github.com/TestMyQt/Qt-CreatorTMC/re
 - Remember where you installed Qt
 - Copy/move the `.so` files extracted from the `qtcreator-tmc-linux.zip` to the following path: `$QT_INSTALL_DIRECTORY/Tools/QtCreator/lib/qtcreator/plugins/`
 - Now lauch Qt Creator to start the course
+  - Optional but highly recommended: If you want to enable automatic syntax checking and linting, you need to enable the `ClangCodeModel` plugin with `Help -> About Plugins -> search for ClangCodeModel` and restart Qt Creator. You can change the settings in `Tools -> Options -> C++ -> Code Model`.
 
 ### Windows
 
