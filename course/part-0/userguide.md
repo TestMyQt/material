@@ -46,9 +46,14 @@ Please download [qtcreator-tmc.zip](https://github.com/TestMyQt/Qt-CreatorTMC/re
 
 If you are using Windows and have no means of working on this course using a Linux machine, please contact us ASAP on #qt-mooc @ Freenode
 
-### Macintosh
+### macOS
 
-If you are using Macintosh and have no means of working on this course using a Linux machine, please contact us ASAP on #qt-mooc @ Freenode
+- Install [XCode](http://developer.apple.com/xcode/) from AppStore.
+- You need to download and install Qt 5.11 and Qt Creator 4.6.2 with the online installer from [qt.io](https://www.qt.io/download-qt-installer)
+- Remember where you installed Qt
+- Copy/move the `.dylib` files extracted from the `qtcreator-tmc-macos.zip` to the following path: `$QT_INSTALL_DIRECTORY/Qt Creator app/Contents//Plugins/`
+- Now lauch Qt Creator to start the course
+  - Optional but highly recommended: If you want to enable automatic syntax checking and linting, you need to enable the `ClangCodeModel` plugin with `Help -> About Plugins -> search for ClangCodeModel` and restart Qt Creator. You can change the settings in `Tools -> Options -> C++ -> Code Model`.
 
 ## Getting started
 
