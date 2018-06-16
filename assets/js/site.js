@@ -28,22 +28,35 @@ var linkifyAnchors = function(level, containingElement) {
 document.onreadystatechange = function(){
   if(this.readyState === "complete"){
     var contentBlock = document.getElementsByClassName("post-content")[0]
+
     for(var level=1; level<=6; level++)
       linkifyAnchors(level, contentBlock);
-  }
-  // Check whether we have a table of contents
-  if (!document.getElementById(tocId)) {
-    return;
-  }
 
-  highlightOnScroll();
+    // Check whether we have a table of contents
+    if (!document.getElementById(tocId)) {
+      return;
+    }
 
-  if(window.addEventListener) {
-    window.addEventListener('scroll', highlightOnScroll, false);
-  } else if (window.attachEvent) {
-    window.attachEvent('onscroll', highlightOnScroll);
+    highlightOnScroll();
+
+    if(window.addEventListener) {
+      window.addEventListener('scroll', highlightOnScroll, false);
+    } else if (window.attachEvent) {
+      window.attachEvent('onscroll', highlightOnScroll);
+    }
   }
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var names = document.getElementsByClassName("names")[0]
+  if (!names) return;
+
+  [].slice.call(names.children).sort(function(a, b) {
+    return 1 - Math.ceil(Math.random() * 100) % 3;
+  }).forEach(function(val, index) {
+    names.appendChild(val);
+  });
+});
 
 // Setup table of contents
 

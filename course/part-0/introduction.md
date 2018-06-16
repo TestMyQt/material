@@ -101,9 +101,9 @@ The course is worth 3 study credits, and it's graded pass/fail.
 
 **During the beta course we will contact all registered participants for credits.**
 
-If you study at the University of Helsinki ...  
-If you study in the EU ...  
-If you study elsewhere in the world ...  
+#### Will this course be available for students outside University of Helsinki?
+
+Preliminary plan is to make this course available for all in the [Open University](https://www.helsinki.fi/en/open-university) in the fall of 2018.
 
 ### Course tools
 
@@ -167,10 +167,18 @@ Where do I find the right help for my particular issue?
 * Technical problems with Qt/Qt Creator
 * Problems/difficulties in making the course tools work before proceeding into Part 1
 
-### F.A.Q
+### Credits
 
-TBA
+This course was made possible by these individuals:
 
-### Useful reference material
+- Kimmo Linnavuo
+- Erika Järvinen
+- Jan Olsson
+- Tino Pyssysalo
+- Tero Kojo
+- Henrik Nygren
+- Abdelkader Belmostefa
+- Henrik Lindberg
+{: .names}
 
-TBA
+Also thanks to Sami Ketola for MacOS plugin build fix
