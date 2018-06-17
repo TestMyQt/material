@@ -25,6 +25,8 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
   - Ubuntu/Debian: `sudo apt install build-essential`
 - To run graphical applications you need to install the development libraries for OpenGL.
   - Ubuntu/Debian: `sudo apt install mesa-common-dev libgl1-mesa-dev`
+- Install libssl1.0 development package
+  - Ubuntu/Debian: `sudo apt install libssl1.0-dev`
 - You need to download and install Qt 5.11 and Qt Creator 4.6.2 with the online installer from [qt.io](https://www.qt.io/download-qt-installer)
 - Remember where you installed Qt
 - Download [qtcreator-tmc-linux-v1.0.zip](https://github.com/TestMyQt/Qt-CreatorTMC/releases/download/v1.0/qtcreator-tmc-linux-v1.0.zip).
@@ -43,7 +45,7 @@ If you are using Windows and have no means of working on this course using a Lin
 - Install [Qt Creator 4.7.0-beta2](http://download.qt.io/snapshots/qtcreator/4.7/4.7.0-beta2/2224/qt-creator-opensource-mac-x86_64-4.7.0-beta2_2224.dmg)
 - Remember where you installed Qt Creator
 - Download [qtcreator-tmc-macos-v1.0.zip](https://github.com/TestMyQt/Qt-CreatorTMC/releases/download/v1.0/qtcreator-tmc-macos-v1.0.zip).
-- Copy/move the `.dylib` files extracted from the `qtcreator-tmc-macos-v1.0.zip` to the following path: `$QT_CREATOR_DIRECTORY/Contents//Plugins/`
+- Copy/move the `libTestMyCode.dylib` file extracted from the `qtcreator-tmc-macos-v1.0.zip` to the following path: `$QT_INSTALL_DIRECTORY/Qt Creator App/Contents/Plugins/`
 - Now lauch Qt Creator to start the course
 
 ## Getting started
