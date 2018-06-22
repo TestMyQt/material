@@ -1,8 +1,12 @@
 # Exercise for Part 1 - Directory Browser
 
+This exercise does not test any functionality of your application, you can just submit it after you think you are ready!
+{: .note}
+
 Complete the implementation of a trivial directory browser. You are provided with a simple browser QML UI and your task is to complete the implementation. Comment in the lines in the UI, when you add the required functionality. The UI shows a directory name and number of file entries and a list of all entries. If the gird at the top is clicked, the application should sort the files to descending or ascending order, depending on the current order. Clicking on the file will show the files in that folder or open a text editor, if the file is a text file.
 
 * Derive `QObject` to implement the requested functionality.
+* Instantiate and expose your object to the **root context** of the QML engine in `main.cpp` line 11. Hint: Use [`setContextProperty()`](https://doc.qt.io/qt-5/qqmlcontext.html#setContextProperty)
 * When a program is started, read at least file names and sizes of a directory, e.g. home, into a container. Note that the container must be a string list, so concatenate the name and size to a single string. 
 
 The QML UI expects the following API from your `QObject` sub-class.
