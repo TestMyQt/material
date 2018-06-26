@@ -11,9 +11,6 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
 **13/06/2018** NB! If you have issues with SSL during login, please make sure that you have OpenSSL 1.0 installed and in your `LD_LIBRARY_PATH`. On some platforms OpenSSL 1.1 is not compatible with Qt
 {: .note}
 
-**12/06/2018** NB! 4.6.2 came out so we will be using that since 4.6.1 won't be offered in the installer anymore!
-{: .note}
-
 **11/06/2018** NB! After downloading and installing Qt 5.11, please do not update it during the duration of this BETA course as doing so will overwrite our plugin install and will require a reinstall
 {: .note}
 
@@ -25,8 +22,9 @@ This guide is written to help you get started using the TMC plugin for Qt Creato
   - Ubuntu/Debian: `sudo apt install build-essential`
 - To run graphical applications you need to install the development libraries for OpenGL.
   - Ubuntu/Debian: `sudo apt install mesa-common-dev libgl1-mesa-dev`
-- Install libssl1.0 development package
-  - Ubuntu/Debian: `sudo apt install libssl1.0-dev`
+- (Install libssl1.0 development package)
+  - Ubuntu 16.04: `sudo apt install libssl-dev`
+  - Ubuntu 18.04/Debian: `sudo apt install libssl1.0-dev`
 - You need to download and install Qt 5.11 and Qt Creator 4.6.2 with the online installer from [qt.io](https://www.qt.io/download-qt-installer)
 - Remember where you installed Qt
 - Download [qtcreator-tmc-linux-v1.0.zip](https://github.com/TestMyQt/Qt-CreatorTMC/releases/download/v1.0/qtcreator-tmc-linux-v1.0.zip).
