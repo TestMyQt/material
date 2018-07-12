@@ -2,9 +2,9 @@
 
 Reversi is a 2-player strategy game, played on the board, consisting of 8x8 squares. Players take turns to place 64 discs on the board one at a time. The discs are dark on one site and light on the other. Players agree, which side they play. The game starts with four discs placed on the board: two light discs on squares (4, 4) and (5, 5) and two dark ones on squares (5, 4) and (4, 5). The first square is (1, 1). 
 
-A player places a dick on the board with the assigned colour facing up. The placed disc must create a horizontal or vertical line with another disc of the same colour in such a way that between the discs, there is one or more discs with the opponent's colour. All opponent's discs bounded by the placed disc and another disc with the same colour are flipped to show the current player's colour. If the player cannot place any disc, the turn changes to the opponent. 
+A player places a disc on the board with the assigned colour facing up. The placed disc must create a horizontal or vertical line with another disc of the same colour in such a way that between the discs, there is one or more discs with the opponent's colour. All opponent's discs bounded by the placed disc and another disc with the same colour are flipped to show the current player's colour. If the player cannot place any disc, the turn changes to the opponent.
 
-The game ends, when the board becomes full or neither player can place new discs on the board. The player, who has more discs with the assigned colour on the board, wins. 
+The game ends, when the board becomes full or neither player can place new discs on the board. The player, who has more discs with the assigned colour on the board, wins.
 
 * Create a green board of 64 four green squares and white border line. The board size must react to window size changes.
 * Consider creating as re-usable board component as possible.
