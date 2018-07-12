@@ -59,21 +59,24 @@ The beta course consists of four parts:
 - Part 3: **Data-centric apps**
 - Part 4: **C++ and QML**
 
-Parts 1 and 2 will be available from the start date of the course. Release of parts 3 and 4 will be staggered, and released later in june.  
+**ATTENTION:** Due to time and resource constraints from our side, the course schedule is postponed for July. The deadline for all the parts will be extended to the final course date of **2018-09-02**. This will also include Part 1, so the course can be started at any time before the date. The release of the rest of the material is also postponed until August. We will update this section when we have more information about the schedule.
+{: .note }
 
-During the beta course, we will adhere to deadlines as follows:  
+Parts 1 and 2 will be available from the start date of the course. ~~Release of parts 3 and 4 will be staggered, and released later in june.~~
+
+During the beta course, we will adhere to deadlines as follows:
 
 | Part                      | Deadline   |
 |---------------------------|------------|
-| Part 1: Qt Essentials     | 2018-07-02 |
-| Part 2: Qt Quick UI:s     | 2018-07-23 |
-| Part 3: Data-centric apps | 2018-08-13 |
-| Part 4: C++ and QML       | 2018-09-02 |
+| Part 1: Qt Essentials     | ~~2018-07-02~~ 2018-09-02 |
+| Part 2: Qt Quick UI:s     | ~~2018-07-23~~ 2018-09-02 |
+| Part 3: Data-centric apps | ~~2018-08-13~~ 2018-09-02 |
+| Part 4: C++ and QML       | ~~2018-09-02~~ 2018-09-02 |
 |
 
-That means that as the course starts, you will have three weeks per part to complete them. Apart from these deadlines, you
-are free to work on the course as you wish. We recommend that you work on the course every week.
-On average each section takes about a week and a half to finish.  
+~~That means that as the course starts, you will have three weeks per part to complete them. Apart from these deadlines, you~~
+~~are free to work on the course as you wish. We recommend that you work on the course every week.~~
+~~On average each section takes about a week and a half to finish.~~
 
 Model solutions for exercises will be available when the deadline is up, and you will not be able to submit exercises for a part after the deadline is up.
 
