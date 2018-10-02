@@ -52,12 +52,12 @@ The goals are that you will have an understanding of how to create an applicatio
 
 #### What is the schedule of this course?
 
-The beta course consists of four parts:
+The beta course consists of five parts:
 
-- Part 1: **Qt Essentials**
-- Part 2: **Qt Quick UI:s**
-- Part 3: **Data-centric apps**
-- Part 4: **C++ and QML**
+- Parts 1 and 2: **Qt Essentials**
+- Part 3: **Qt Quick UI:s**
+- Part 4: **Data-centric apps**
+- Part 5: **C++ and QML**
 
 **ATTENTION:** Due to time and resource constraints from our side, the course schedule is postponed for July. The deadline for all the parts will be extended to the final course date of **2018-09-02**. This will also include Part 1, so the course can be started at any time before the date. The release of the rest of the material is also postponed until August. We will update this section when we have more information about the schedule.
 {: .note }
