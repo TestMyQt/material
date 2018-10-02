@@ -1,23 +1,29 @@
-# Exercise for Part 2 - Reversi
+# Exercise for Part 2 - Directory Browser
 
-Reversi is a 2-player strategy game, played on the board, consisting of 8x8 squares. Players take turns to place 64 discs on the board one at a time. The discs are dark on one site and light on the other. Players agree, which side they play. The game starts with four discs placed on the board: two light discs on squares (4, 4) and (5, 5) and two dark ones on squares (5, 4) and (4, 5). The first square is (1, 1). 
+This exercise does not test any functionality of your application, you can just submit it after you think you are ready!
+{: .note}
 
-A player places a disc on the board with the assigned colour facing up. The placed disc must create a horizontal or vertical line with another disc of the same colour in such a way that between the discs, there is one or more discs with the opponent's colour. All opponent's discs bounded by the placed disc and another disc with the same colour are flipped to show the current player's colour. If the player cannot place any disc, the turn changes to the opponent.
+Complete the implementation of a trivial directory browser. You are provided with a simple browser QML UI and your task is to complete the implementation. Comment in the lines in the UI, when you add the required functionality. The UI shows a directory name and number of file entries and a list of all entries. If the gird at the top is clicked, the application should sort the files to descending or ascending order, depending on the current order. Clicking on the file will show the files in that folder or open a text editor, if the file is a text file.
 
-The game ends, when the board becomes full or neither player can place new discs on the board. The player, who has more discs with the assigned colour on the board, wins.
+* Derive `QObject` to implement the requested functionality.
+* Instantiate and expose your object to the **root context** of the QML engine in `main.cpp` line 11. Hint: Use [`setContextProperty()`](https://doc.qt.io/qt-5/qqmlcontext.html#setContextProperty)
+* When a program is started, read at least file names and sizes of a directory, e.g. home, into a container. Note that the container must be a string list, so concatenate the name and size to a single string. 
 
-* Create a green board of 64 four green squares and white border line. The board size must react to window size changes.
-* Consider creating as re-usable board component as possible.
-* Use the QML Flipable type to create discs. Each disc should have a dark and light face, circle-shape, and a border.
-* Animate disc opacity and scale, when the disc is flipped. 
-* Place the four initial discs on the board when the game is started.
-* Allow the player to place discs on legal positions only.
-* Change the turn to another player either after the current player has placed one disc or clicked on a button, which gives the turn to the opponent. 
-* Implement the game logic to implement the moves and to determine the game winner in the end. 
-* Add a button to start and another button to pause the game. Measure the game duration. When paused, the game duration time should be paused as well. 
-* Add a button to finish the game in case no more discs can be placed on the board. Let the players decide, when to use it. No logic implementation required. 
-* When the game ends, show a dialog to show the winner, the ratio of dark and light disks, and the game duration.
-* You may use the JavaScript functions to implement the game logic here. Pay attention to good QML components rather than JS functions, implementing perfect game logic.
+The QML UI expects the following API from your `QObject` sub-class.
 
+* There must be two properties: `dirName` of type `String` and `filesInDir` of type int. The values should correspond the real values of the current directory. 
+* Provide the slot functions to be called from the UI.
+* `model()` returns the container.
+* `fileContent()` returns the content of a text file as String.
+* `sort()` will sort entries in ascending or descending order. 
+* `entryChanged(QString)` is called from the UI. You should check, whether the entry is a directory or a file. In the former case, you should read new entries from the new directory and in the latter case, you should read content of the file and use `fileContent()` to return the content to the UI.
+
+The UI is heavily based on signals. 
+
+* `dirNameChanged()` indicates the directory name has changed, i.e. the user has clicked on the directory name on the UI.
+* Similarly, `filesInDirChanged()` indicates that the `filesInDir` value has changed.
+* `fileContentChanged()` is similar, indicating the user has clicked on the file name in the UI and new data has been read from the file.
+* `dataChanged()` notifies the container content has changed.
+* `entryClicked(QString)` signal is emitted from the UI. You should handle this by checking the type of the entry and by reading either a directory content to the container or file content to the String, used in the UI. 
 
 ****
