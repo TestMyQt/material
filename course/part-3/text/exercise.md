@@ -1,4 +1,4 @@
-# Exercise for Part 2 - Reversi
+# Exercise for Part 3 - Reversi
 
 Reversi is a 2-player strategy game, played on the board, consisting of 8x8 squares. Players take turns to place 64 discs on the board one at a time. The discs are dark on one site and light on the other. Players agree, which side they play. The game starts with four discs placed on the board: two light discs on squares (4, 4) and (5, 5) and two dark ones on squares (5, 4) and (4, 5). The first square is (1, 1). 
 
