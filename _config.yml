@@ -40,6 +40,8 @@ exclude:
   - course/part-1/text/
   - course/part-2/text/
   - course/part-3/text/
+  - course/part-4/text/
+  - course/part-5/text/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
