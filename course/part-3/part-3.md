@@ -5,9 +5,6 @@ permalink: /part-3
 qmlweb: true
 ---
 
-# Notice: material is under construction!
-{: .notice}
-
 * TOC
 {:toc}
 
@@ -22,4 +19,3 @@ qmlweb: true
 {% include_relative text/09.md %}
 {% include_relative text/10.md %}
 {% include_relative text/11.md %}
-{% include_relative text/exercise.md %}

@@ -4,7 +4,7 @@ title: Introduction
 permalink: /intro
 ---
 
-# Notice: material is under construction!
+# Notice: This page is outdated.
 {: .notice}
 
 #### What is Qt?

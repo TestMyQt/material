@@ -4,9 +4,6 @@ title: Part 2
 permalink: /part-2
 ---
 
-# Notice: material is under construction!
-{: .notice}
-
 * TOC
 {:toc}
 

@@ -1,6 +1,6 @@
 # Exercise for Part 2 - Directory Browser
 
-This exercise does not test any functionality of your application, you can just submit it after you think you are ready!
+This exercise does not test any functionality of your application, you can just submit it after you think you are ready! It will be graded based on peer review.
 {: .note}
 
 Complete the implementation of a trivial directory browser. You are provided with a simple browser QML UI and your task is to complete the implementation. Comment in the lines in the UI, when you add the required functionality. The UI shows a directory name and number of file entries and a list of all entries. If the gird at the top is clicked, the application should sort the files to descending or ascending order, depending on the current order. Clicking on the file will show the files in that folder or open a text editor, if the file is a text file.
