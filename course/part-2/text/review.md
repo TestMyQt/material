@@ -17,3 +17,22 @@
 - In the getObjectProperties "valueName" should probably be "value" or "propertyValue"
 
 - Exercise 02: StudentRegistry.cpp explanation of expelDivisibleStudents is somewhat vague on what it should return and what expelling means to the class.
+
+#### 2.02
+
+- There could be a link to the Observer pattern (Wikipedia for example) for the people who are not familiar with the definition.
+- I think that the Event loop part is slightly vague, it does not explain the thing enough for a person who is not familiar with it to understand the idea. Maybe an external link here too?
+- To what does Jan's comment in Signals subchapter link to? I don't see any information that's not relevant, maybe deleted text?
+
+- I feel like the signals assignment is too easy. It could be improved by having to use different connect overloads or looking into some features of signal/slot system like the sender() function?
+- Assignment also passes the tests for some reason when i threw it in a recursive loop accidentally. It seems like the same bug that I noticed earlier where the system says that it passes if the tests crash, but as I submitted it to the server it seems to take quite a lot of server time to produce an error.
+
+#### 2.03 
+
+- Conceptually not much so say, important and basic needed stuff.
+
+- Heading typo: "The Dangling Pointer Probelm". 
+- The dangling pointer problem might be a good heading to go through QSharedPointer and QScopedPointer too in some iteration of the course?
+
+- Exercise 04: Destructable and parenting cpp files are not added on the src.pro by default.
+- Exercise 04: The assignment has good concepts, I think it might benefit from some example code for using them. Maybe in the next iteration of the course or something. 
