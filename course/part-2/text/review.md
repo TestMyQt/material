@@ -4,6 +4,8 @@
 
 ### Part 2
 
+Second part feels shorter than the first one, could maybe have more information in the future?
+
 #### 2.01
 
 - 'Value Type and Identity type' is as a heading for the second time, first appearing in 1.02. Is it intentional to have the identical heading twice or should this second one talk more about Identity types in special and the first one about value types? Now I kind of feel like it's best to read them both in succession to get the idea.
@@ -36,3 +38,8 @@
 
 - Exercise 04: Destructable and parenting cpp files are not added on the src.pro by default.
 - Exercise 04: The assignment has good concepts, I think it might benefit from some example code for using them. Maybe in the next iteration of the course or something. 
+
+#### Main exercise
+
+- This feels like a good excercise, it uses the concepts, is fun to do and had for me at least a moderate amount of troubleshooting.
+- The peer reviewers will have a hard time, if people do not use Qt directory tools, as in c++ you will have many interesting problems when using filesystems on different platforms.
