@@ -4,11 +4,11 @@
 
 ### Part 1.01
 
-- It's a bit confusing that the example in 1.01 of missing QtConcurrent first says that the QtConcurrent must be added to the .pro file and next it's shown what happens when the user does not do this.
+- It's a bit confusing that the example in 1.01 of missing QtConcurrent first says that the QtConcurrent must be added to the .pro file and next it's shown what happens when the user does not do this. *J: Changed*
 
 - Subchapter qmake mentions that you can use qmake for any software project. Should it specify c/c++ software project, or is there support for other languages in qmake? 
 
-- Typo in QDebug chapter equilavent -> equivalent
+- Typo in QDebug chapter equilavent -> equivalent *J: Fixed*
 
 - In the part about shadow builds, should there be some instructions how to configure the project defaults for the assignments here instead of the part 0? Not that probably many of the students need that anyway, but there's quite a lot of choices to play with if you're not sure what to do.
 
@@ -16,7 +16,7 @@
 
 ### Part 1.02
 
-- I'm not sure if it's necessary to point out that the QStringBuilder was added in Qt 4.6 as the course uses Qt5 and I'd think that most of the target audience is probably going to use that exclusively.
+- I'm not sure if it's necessary to point out that the QStringBuilder was added in Qt 4.6 as the course uses Qt5 and I'd think that most of the target audience is probably going to use that exclusively. *J: Agreed, changed*
 
 - If the tests are cancelled, the TMC plugin thinks that the tests have passed and asks about submission. Same if the tests crash.
 
@@ -28,7 +28,7 @@
 
 - I'm not sure how challenging the assignments in this part can be to students who have used c/c++ for only on couple of courses, but i'd think it's fine. The assignments are quite clear and you get the idea what you should do easily. 
 
-- Typo in the Value Type vs. Identity Type: 'see documenation'
+- Typo in the Value Type vs. Identity Type: 'see documenation' *J: Fixed*
 
 ### Part 1 1.03
 

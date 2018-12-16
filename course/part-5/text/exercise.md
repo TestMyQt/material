@@ -12,4 +12,4 @@ Image application allows user to add and capture images for viewing. The applica
 
 * Implement at least three views: the view to show the images (main view), the view to show one image, and a camera view. Add a `ToolBar`and `ToolButtons` to navigate between the views. Push a new view, e.g. a camera view to the stack view and pop it, when the user navigates back to the main view, using tool buttons.
 
-****
+

@@ -4,6 +4,8 @@ title: Installation
 permalink: /install
 ---
 
+THIS GUIDE IS OUT OF DATE, UPDATE!
+
 This guide is written to help you get started using the TMC plugin for Qt Creator.
 
 ## Current bugs, issues and fixes: 
