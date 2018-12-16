@@ -26,4 +26,3 @@ The UI is heavily based on signals.
 * `dataChanged()` notifies the container content has changed.
 * `entryClicked(QString)` signal is emitted from the UI. You should handle this by checking the type of the entry and by reading either a directory content to the container or file content to the String, used in the UI. 
 
-****

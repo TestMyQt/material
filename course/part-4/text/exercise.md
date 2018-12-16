@@ -14,4 +14,3 @@ Your task is to implement a TV Guide application. The application allows the use
 
 * Avoid hard-coded magic numbers. Make at least the view sizes scalable. The font and image sizes may be fixed.  
 
-****

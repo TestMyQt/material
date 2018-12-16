@@ -6,7 +6,7 @@
 
 #### Part 3.01
 
-- Jan has a comment on the topic "Prototyping with Quick UI projects and qmlscene" that says that the qmlscene tool is apparently deprecated? I looked at the current snapshot documentation page for qmlscene and it does not mention anything about it?
+- Jan has a comment on the topic "Prototyping with Quick UI projects and qmlscene" that says that the qmlscene tool is apparently deprecated? I looked at the current snapshot documentation page for qmlscene and it does not mention anything about it? *J: For now I just removed the comment, let's take out the subchapter all together if it really is deprecated at some point*
 
 - The translation comment part was very interesting new information to me professionally.
 
@@ -20,7 +20,7 @@
 
 - I feel like in the BorderImage example, seeing the result of the example code would make it easier to understand. Of course the student will try it out later, but when reading the text, it feels like bit confusing concept without the image to see how the image is streched/tiled. Maybe a gif or something.
 
-- In the Text Component part "Generally explicitly setting the size is unoptimal because it causes a layout re-calculcation, so set it if you need to." I think it should be "so set it _only_ if you need to."; unoptimal <-> suboptimal and re-calculcation <-> recalculation. 
+- In the Text Component part "Generally explicitly setting the size is unoptimal because it causes a layout re-calculcation, so set it if you need to." I think it should be "so set it _only_ if you need to."; unoptimal <-> suboptimal and re-calculcation <-> recalculation. *J: Changed*
 
 - In the exercise it would feel a bit more like a real frame if the window size of the program would be tied to the image size too. So when the window is scaled the image+border would fit.
 

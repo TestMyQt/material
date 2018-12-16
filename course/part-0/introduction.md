@@ -4,9 +4,6 @@ title: Introduction
 permalink: /intro
 ---
 
-# Notice: This page is outdated.
-{: .notice}
-
 #### What is Qt?
 
 Programming should be fast, easy and fun. That’s why Qt has been focusing on improving software development for the last 25 years, and with the amount of applications and devices growing every day, efficiency has become more important than ever.
@@ -30,7 +27,7 @@ The Qt Company is the main responsible party for Qt development, productisation 
 
 #### What is this course?
 
-This course was dreamed up and implemented so that you can also learn the essentials of Qt
+This course was dreamed up and implemented so that you can also learn the essentials of Qt and QML.
 
 #### Is this a course for beginners?
 
@@ -39,7 +36,7 @@ You should have some experience in programming, and preferably C++ in specific, 
 #### What are the requirements for enrolling in this course?
 
 Anyone can join in! To register for the course, you need to register an account to the [TestMyCode system](https://tmc.mooc.fi).
-You will also need to install the Qt framework with the Qt Creator IDE and our [TestMyCode plugin]({{ "/install" | absolute_url }}).
+You will also need to install the Qt framework with the Qt Creator IDE and our TMC plugin, instructions for which you'll find in "User Guide".
 
 #### What do I need to know before enrolling in this course?
 
@@ -52,45 +49,26 @@ The goals are that you will have an understanding of how to create an applicatio
 
 #### What is the schedule of this course?
 
-The beta course consists of five parts:
+The course consists of five parts:
 
 - Parts 1 and 2: **Qt Essentials**
 - Part 3: **Qt Quick UI:s**
 - Part 4: **Data-centric apps**
 - Part 5: **C++ and QML**
 
-**ATTENTION:** Due to time and resource constraints from our side, the course schedule is postponed for July. The deadline for all the parts will be extended to the final course date of **2018-09-02**. This will also include Part 1, so the course can be started at any time before the date. The release of the rest of the material is also postponed until August. We will update this section when we have more information about the schedule.
-{: .note }
-
-Parts 1 and 2 will be available from the start date of the course. ~~Release of parts 3 and 4 will be staggered, and released later in june.~~
-
-During the beta course, we will adhere to deadlines as follows:
-
-| Part                      | Deadline   |
-|---------------------------|------------|
-| Part 1: Qt Essentials     | ~~2018-07-02~~ 2018-09-02 |
-| Part 2: Qt Quick UI:s     | ~~2018-07-23~~ 2018-09-02 |
-| Part 3: Data-centric apps | ~~2018-08-13~~ 2018-09-02 |
-| Part 4: C++ and QML       | ~~2018-09-02~~ 2018-09-02 |
-|
-
-~~That means that as the course starts, you will have three weeks per part to complete them. Apart from these deadlines, you~~
-~~are free to work on the course as you wish. We recommend that you work on the course every week.~~
-~~On average each section takes about a week and a half to finish.~~
-
-Model solutions for exercises will be available when the deadline is up, and you will not be able to submit exercises for a part after the deadline is up.
+TODO: Info about deadlines and points needed to pass.
 
 #### Where can I find the course material?
 
 On this site we have included the course material and relevant exercises. There are four main parts of the course in total and they include a number of subtopics and assignments attached to said subtopics.
 
-We will include some relevant reference materials per week, this will mainly consist of links to Qt documentation and/or Wiki pages.
+We will include some relevant reference materials, this will mainly consist of links to Qt documentation and/or Wiki pages.
 
 We recommend you to use the libre [**QMLBook**](https://qmlbook.github.io/index.html) by Jürgen Bocklage-Ryannel and Johan Thelin as your course reference book, should you wish to use one. It contains relevant topics to this course and will provide with a second perspective to learning about getting the most out of developing with Qt.
 
 #### Where can I find the course exercises?
 
-Course exercises can be fetched from the [Test My Code system](https://tmc.mooc.fi) with the [Qt Creator plugin]({{ "/install" | absolute_url }})
+Course exercises can be fetched from the [Test My Code system](https://tmc.mooc.fi) with the Qt Creator TMC plugin.
 
 #### What do I need to do to get credit for completing this course?
 
@@ -102,11 +80,9 @@ You can get some additional points for answering the review questions at the end
 
 The course is worth 3 study credits, and it's graded pass/fail.
 
-**During the beta course we will contact all registered participants for credits.**
-
 #### Will this course be available for students outside University of Helsinki?
 
-Preliminary plan is to make this course available for all in the [Open University](https://www.helsinki.fi/en/open-university) in the fall of 2018.
+Preliminary plan is to make this course available for all in the [Open University](https://www.helsinki.fi/en/open-university) during early 2019.
 
 ### Course tools
 
@@ -130,7 +106,7 @@ Preliminary plan is to make this course available for all in the [Open Universit
 
 You will need to install Qt, the Qt Creator IDE and the TMC plugin for Qt Creator.
 
-We have provided with instructions for you to set up your working environment [here]({{ "/install" | absolute_url }})
+We have provided with instructions for you to set up your working environment in "User Guide".
 
 
 ### Working on the Qt MOOC
@@ -145,14 +121,10 @@ Why adhere to coding conventions?
 
 ### Course contact channels
 
-During the first month of the beta course, we will be offering some on site support during afternoons at Kumpula Campus (Gustaf Hällströmin katu 2b) in Helsinki.
-More info on this later!
-
-In general, our main contact channel will be:
+Our main contact channel will be IRC, we'll add a Telegram channel if there is call for it:
 
 * [#qt-mooc @ freenode](irc://#qt-mooc@irc.freenode.net)
 * [Freenode webchat](https://webchat.freenode.net/?channels=qt-mooc)
-* [Telegram link for #qt-mooc @ freenode](https://t.me/joinchat/FdRoUFI0awxijE4mEA72bg)
 * [Riot link for #qt-mooc @ freenode](https://riot.im/app/#/room/#freenode_#qt-mooc:matrix.org)
 
 We encourage students to join in and stay around even if your particular question/issue may have been resolved!  
@@ -160,15 +132,6 @@ We encourage students to join in and stay around even if your particular questio
 As this is a beta course we encourage you to give us all kinds of feedback and be persistent with your questions, 
 as some of the problems you will encounter may be entirely our fault, and we need to know what the problem is so we can 
 fix it asap!
-
-Where do I find the right help for my particular issue?
-
-* Technical problems with the course assignments
-* Difficulties in figuring out assignments
-* Stuck on code that doesn't work
-* Technical problems with the course tools
-* Technical problems with Qt/Qt Creator
-* Problems/difficulties in making the course tools work before proceeding into Part 1
 
 ### Credits
 
@@ -180,8 +143,3 @@ This course was made possible by these individuals:
 - Tino Pyssysalo
 - Tero Kojo
 - Henrik Nygren
-- Abdelkader Belmostefa
-- Henrik Lindberg
-{: .names}
-
-Also thanks to Sami Ketola for MacOS plugin build fix
