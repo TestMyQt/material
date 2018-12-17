@@ -26,5 +26,10 @@
 - The second paragraph has some grammatical trouble. I think it could benefit from going through the formatting of the text again.
 - PictureFrame with sections (4/8) exercise doesn't really specify how should you group the images to the sections and the second instruction is unclear. I feel like this exercise needs to be explained better.
 - Should the exercise 4/8 omit the changes done in the exercise 3/8 as it seems like after we have the sections on the images, there should not also be two ListViews in the program?
-- 5/8 exercise has trouble with the definition of "current image" as we have not created any kind of selection to the ListView in the previous exercises. currentItem is there, but it's not well defined in the context of the exercise yet.
+- 5/8 exercise has trouble with the definition of "current image" as we have not created any kind of selection to the ListView in the previous exercises. currentItem is there, but it's not well defined in the context of the exercise yet. 
+- I'd say that having the keyboard navigation exercise with hilights (6/8) before the 5/8 would be a good idea even though this requires text restructuring as it would define the needed currentItem more concisely.
 
+### 4.04
+
+- Delegate Size, second paragraph: "However, Item has no explicit size, so it has to be explicitly declared." first explicit should probably be implicit.
+- Just next from it: "One approach is to bind the root item size to the view size. In the following example, we bind the delegate height to the height available for one item, assuming the model has n items." - I think that it could be more straightforward if it would just say `ListView.view.count` items instead of `n` as n is not to be found in the following example as a variable.
